@@ -2,5 +2,9 @@
   "name": "Chapter 5",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "pg": "^8.7.3",
+    "sequelize": "^6.19.0"
+  }
 }
