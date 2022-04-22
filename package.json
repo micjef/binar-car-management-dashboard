@@ -1,10 +1,21 @@
 {
-  "name": "Chapter 5",
+  "name": "binar_car_dashboard",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "license": "MIT",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.7",
+    "express": "^4.17.3",
+    "express-ejs-layouts": "^2.5.1",
+    "method-override": "^3.0.0",
     "pg": "^8.7.3",
     "sequelize": "^6.19.0"
-  }
+  },
+  "author": "micjef <michaeljeffrysetiawan@gmail.com>"
 }
